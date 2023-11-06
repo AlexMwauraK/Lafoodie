@@ -222,8 +222,8 @@ button{
 
 .container{
   display: grid;
+  padding: 25px 0;
   align-items: center;
-  height: 80vh;
   grid-template-columns: 1fr 1fr;
 }
 .container p, h2{
