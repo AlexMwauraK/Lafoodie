@@ -28,7 +28,7 @@
   background: linear-gradient(transparent, rgb(255, 255, 255));
 }
 html {
-  background-image: linear-gradient(rgba(250, 224, 224, 0.89), rgba(225, 230, 245, 0.904)), url("/img/background/background.jpg");
+  background-image: linear-gradient(45deg,rgba(255, 206, 206, 0.733), rgba(167, 187, 247, 0.863)), url("/img/background/background.jpg");
   background-size: cover; 
   background-position: center;  
   background-repeat: no-repeat;  
@@ -242,6 +242,7 @@ button{
   display: flex;
   justify-content: flex-start;
 }
+
 .content-image img{
   width: 80%;
 }
@@ -408,6 +409,7 @@ button{
 /* Map location  */
 #map{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 40px;
 }
